@@ -1,0 +1,63 @@
+{
+  "name": "@gnu-mcu-eclipse/qemu",
+  "version": "2.8.0-3.1",
+  "description": "An xPack that installs the binary files for GNU MCU Eclipse QEMU",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gnu-mcu-eclipse/qemu-xpack.git"
+  },
+  "keywords": [
+    "xpack",
+    "qemu"
+  ],
+  "author": {
+    "name": "Liviu Ionescu",
+    "email": "ilg@livius.net",
+    "url": "http://liviusdotnet.wordpress.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gnu-mcu-eclipse/qemu-xpack/issues"
+  },
+  "homepage": "https://github.com/gnu-mcu-eclipse/qemu-xpack#readme",
+  "devDependencies": {},
+  "peerDependencies": {},
+  "bundledDependencies": [],
+  "optionalDependencies": {},
+  "xpack": {
+    "binaries": {
+      "destination": "./.content",
+      "baseUrl": "https://github.com/gnu-mcu-eclipse/qemu/releases/download/v2.8.0-3-20180523",
+      "skip": 3,
+      "platforms": {
+        "linux-x86": {
+          "sha256": "1e93a4fe2c661cace1b28fb633a9e7eb2c20f352b717205ac22cd338fcee101b",
+          "fileName": "gnu-mcu-eclipse-qemu-2.8.0-3-20180523-0703-centos32.tgz"
+        },
+        "linux-x64": {
+          "sha256": "d4260a47b3322bce6d8d74feb2409b04c45f0b18a2958bb04ed2c802abf60793",
+          "fileName": "gnu-mcu-eclipse-qemu-2.8.0-3-20180523-0703-centos64.tgz"
+        },
+        "darwin-x64": {
+          "sha256": "0a910c2548513cbbead6f4dd3366ccd72ecc1d75a6aee65e40fd92bdc1e5587e",
+          "fileName": "gnu-mcu-eclipse-qemu-2.8.0-3-20180523-0703-macos.tgz"
+        },
+        "win32-x86": {
+          "sha256": "065bac74d9d70ae240167936f155abb43097e29b7a4d14c53e473e2d76aa7cb9",
+          "fileName": "gnu-mcu-eclipse-qemu-2.8.0-3-20180523-0703-win32.zip"
+        },
+        "win32-x64": {
+          "sha256": "7b90e76a0705e9c15fe80373f9028934f179b5c75ea3d2f60dc709adc280e021",
+          "fileName": "gnu-mcu-eclipse-qemu-2.8.0-3-20180523-0703-win64.zip"
+        }
+      },
+      "bin": {
+        "qemu-system-gnuarmeclipse": "./.content/bin/qemu-system-gnuarmeclipse"
+      }
+    }
+  }
+}
