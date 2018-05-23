@@ -1,2 +1,2 @@
-# qemu-xpack
-An xPack that installs the binary files for GNU MCU Eclipse QEMU
+This project does not use the `master` branch, please
+switch to the `xpack` branch to get the project files.
