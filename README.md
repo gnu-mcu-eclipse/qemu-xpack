@@ -47,7 +47,8 @@ To remove the installed xPack, the command is similar:
 $ xpm uninstall --global @gnu-mcu-eclipse/qemu
 ```
 
-(Note: not yet implemented)
+(Note: not yet implemented. As a temporary workaround, simply remove the 
+`xPacks/@gnu-mcu-eclipse/qemu` folder, or the versions subfolders.)
 
 ## Developer info
 
