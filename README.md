@@ -74,7 +74,7 @@ section of the `gnu-mcu-eclipse/qemu` GitHub project.
 select the latest release
 * update the `baseUrl:` with the file URLs (including the tag/version)
 * from the blog post, copy the SHA & file names
-* commit all changes, use a message like `2.8.0-3.1` (without `v`)
+* commit all changes, use a message like `package.json: update urls for 2.8.0-3 release` (without `v`)
 * update `CHANGELOG.md`; commit with a message like _CHANGELOG: prepare v2.8.0-3.1_
 * `npm version 2.8.0-3.1`
 * push all changes to GitHub

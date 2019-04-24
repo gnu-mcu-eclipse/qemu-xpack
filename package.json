@@ -31,28 +31,28 @@
   "xpack": {
     "binaries": {
       "destination": "./.content",
-      "baseUrl": "https://github.com/gnu-mcu-eclipse/qemu/releases/download/v2.8.0-4-20190211",
+      "baseUrl": "https://github.com/gnu-mcu-eclipse/qemu/releases/download/v2.8.0-5-20190424",
       "skip": 3,
       "platforms": {
         "linux-x86": {
-          "sha256": "177286aa8a5196e0b2a232c9a0ac8d4bfa7fd7ecfb70e374a4708449ee590f15",
-          "fileName": "gnu-mcu-eclipse-qemu-2.8.0-4-20190211-0633-centos32.tgz"
+          "sha256": "fe599df8d544942bb463668049aa734f3e5bb8c9e4404390d978120b7b78ecf2",
+          "fileName": "gnu-mcu-eclipse-qemu-2.8.0-5-20190424-0724-centos32.tgz"
         },
         "linux-x64": {
-          "sha256": "1db493e73d4f7bb7d7553db3e855183fd1f918dcabb92459bc76c65fa45ca526",
-          "fileName": "gnu-mcu-eclipse-qemu-2.8.0-4-20190211-0633-centos64.tgz"
+          "sha256": "dd9d31233eeb9fb116dfd4e4d9bc49e12e683f498a13bdd680b37c2d9111f3dd",
+          "fileName": "gnu-mcu-eclipse-qemu-2.8.0-5-20190424-0724-centos64.tgz"
         },
         "darwin-x64": {
-          "sha256": "b79a60284245c5c1cec5b49ea12d8fc8263fa5c71be1ffe63b326c0f9687da4e",
-          "fileName": "gnu-mcu-eclipse-qemu-2.8.0-4-20190211-0633-macos.tgz"
+          "sha256": "a3d87dff41417bb469d2993c6d33943a21e97113ba0545ce2978b7bdcc32c4bc",
+          "fileName": "gnu-mcu-eclipse-qemu-2.8.0-5-20190424-0724-macos.tgz"
         },
         "win32-x86": {
-          "sha256": "6a6c831fadf15dff56d386b54b686e269c45413b5c932be1595af755785b87ed",
-          "fileName": "gnu-mcu-eclipse-qemu-2.8.0-4-20190211-0633-win32.zip"
+          "sha256": "cc4cd29ae9cd676a7b2309f3f82e7f885e0de0419af744b57bcb2ab4629d4ca7",
+          "fileName": "gnu-mcu-eclipse-qemu-2.8.0-5-20190424-0724-win32.zip"
         },
         "win32-x64": {
-          "sha256": "a770a0cd726de338b983493141794ea6cb375eee58cbe66ff075d65e451d83a8",
-          "fileName": "gnu-mcu-eclipse-qemu-2.8.0-4-20190211-0633-win64.zip"
+          "sha256": "ca23c5b7af40d58ee0b3e0a29295bdd443d318cdb7d9b9cf2220e4801c555164",
+          "fileName": "gnu-mcu-eclipse-qemu-2.8.0-5-20190424-0724-win64.zip"
         }
       },
       "bin": {
