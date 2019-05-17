@@ -1,6 +1,6 @@
 {
   "name": "@gnu-mcu-eclipse/qemu",
-  "version": "2.8.0-5.1",
+  "version": "2.8.0-6.1",
   "description": "An xPack that installs the binary files for GNU MCU Eclipse QEMU",
   "main": "",
   "scripts": {
